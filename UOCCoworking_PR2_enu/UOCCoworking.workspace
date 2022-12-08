@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="UOCCoworking" Database="" Version="10.0.0">
+  <Project Name="UOCCoworking" Path="UOCCoworking.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Test" Selected="yes">
+      <Environment/>
+      <Project Name="UOCCoworking" ConfigName="Test"/>
+      <Project Name="UOCCoworking" ConfigName="Test"/>
+      <Project Name="UOCCoworking" ConfigName="Test"/>
+      <Project Name="UOCCoworking" ConfigName="Test"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Menu" Selected="no">
+      <Environment/>
+      <Project Name="UOCCoworking" ConfigName="Menu"/>
+      <Project Name="UOCCoworking" ConfigName="Menu"/>
+      <Project Name="UOCCoworking" ConfigName="Menu"/>
+      <Project Name="UOCCoworking" ConfigName="Menu"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

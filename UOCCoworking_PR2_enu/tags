@@ -1,0 +1,13 @@
+bookingListInit	/Users/xtejero/Desktop/UOCCoworking_PR2_enu/include/list.h	/^void bookingListInit(tBookingList *list);$/;"	prototype	line:3	signature:(tBookingList *list)	returns:void 
+isBookingListEmpty	/Users/xtejero/Desktop/UOCCoworking_PR2_enu/include/list.h	/^bool isBookingListEmpty(tBookingList list);$/;"	prototype	line:4	signature:(tBookingList list)	returns:bool 
+isBookingListFull	/Users/xtejero/Desktop/UOCCoworking_PR2_enu/include/list.h	/^bool isBookingListFull(tBookingList list);$/;"	prototype	line:5	signature:(tBookingList list)	returns:bool 
+bookingListInsert	/Users/xtejero/Desktop/UOCCoworking_PR2_enu/include/list.h	/^tError bookingListInsert(tBookingList *list, tBooking newElement, int index);$/;"	prototype	line:6	signature:(tBookingList *list, tBooking newElement, int index)	returns:tError 
+bookingListDelete	/Users/xtejero/Desktop/UOCCoworking_PR2_enu/include/list.h	/^tError bookingListDelete(tBookingList *list, int index);$/;"	prototype	line:7	signature:(tBookingList *list, int index)	returns:tError 
+bookingListGet	/Users/xtejero/Desktop/UOCCoworking_PR2_enu/include/list.h	/^tError bookingListGet(tBookingList list, int index, tBooking *booking);$/;"	prototype	line:8	signature:(tBookingList list, int index, tBooking *booking)	returns:tError 
+isBookingListEnd	/Users/xtejero/Desktop/UOCCoworking_PR2_enu/include/list.h	/^bool isBookingListEnd(tBookingList list, int index);$/;"	prototype	line:9	signature:(tBookingList list, int index)	returns:bool 
+bookingListReplace	/Users/xtejero/Desktop/UOCCoworking_PR2_enu/include/list.h	/^tError bookingListReplace(tBookingList *list, int index, tBooking elem);$/;"	prototype	line:10	signature:(tBookingList *list, int index, tBooking elem)	returns:tError 
+bookingListLength	/Users/xtejero/Desktop/UOCCoworking_PR2_enu/include/list.h	/^unsigned int bookingListLength(tBookingList list);$/;"	prototype	line:11	signature:(tBookingList list)	returns:unsigned int 
+bookingListCmp	/Users/xtejero/Desktop/UOCCoworking_PR2_enu/include/list.h	/^int bookingListCmp( tBookingList b1, tBookingList b2 );$/;"	prototype	line:12	signature:( tBookingList b1, tBookingList b2 )	returns:int 
+bookingListCpy	/Users/xtejero/Desktop/UOCCoworking_PR2_enu/include/list.h	/^void bookingListCpy( tBookingList *dst, tBookingList src );$/;"	prototype	line:13	signature:( tBookingList *dst, tBookingList src )	returns:void 
+bookingCpy	/Users/xtejero/Desktop/UOCCoworking_PR2_enu/include/list.h	/^void bookingCpy( tBooking *dst, tBooking src );$/;"	prototype	line:14	signature:( tBooking *dst, tBooking src )	returns:void 
+bookingCmp	/Users/xtejero/Desktop/UOCCoworking_PR2_enu/include/list.h	/^int bookingCmp( tBooking b1, tBooking b2 );$/;"	prototype	line:15	signature:( tBooking b1, tBooking b2 )	returns:int 
